@@ -1,0 +1,7 @@
+{
+  "name": "thebinarytruth",
+  "version": "0.1.0",
+  "dependencies": {
+    "fitty": "^2.2.6"
+  }
+}
