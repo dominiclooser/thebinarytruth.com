@@ -1,0 +1,95 @@
+---
+truths:
+   -  question: How is the weather?
+      answer: Good
+   -  question: What about my finances?
+      answer: Good
+   -  question: Will I ever find the Truth?
+      answer: No
+   -  question: Does it matter?
+      answer: No
+   -  question: Does anything matter?
+      answer: No
+   -  question: Should I ask her out?
+      answer: Yes
+   -  question: Should I ask him out?
+      answer: Yes
+   -  question: Should I found a company?
+      answer: Yes
+   -  question: Is life a game?
+      answer: Yes
+   -  question: Did I ever do a mistake?
+      answer: No
+   -  question: Is truth binary?
+      answer: Yes. No. Yes
+   -  question: Should I kill myself?
+      answer: No
+   -  question: Should I go out tonight?
+      answer: Yes
+   -  question: How is Switzerland?
+      answer: Good
+   -  question: What is the meaning of life?
+      answer: Yes
+   -  question: Is thinking helpful?
+      answer: No
+   -  question: Should I study Mathematics?
+      answer: No
+   -  question: Should I do Arts?
+      answer: Yes
+   #-  question: Am I Old?
+   -  question: Is my penis too small?
+      answer: No
+   # -  question: Are my breasts too small?
+   #   answer: Yes
+   -  question: Will I die?
+      answer: No
+   -  question: Should I drink coffee?
+      answer: Yes
+   -  question: Are these answers scientifically validated?
+      answer: Yes
+   -  question: Should I loose some weight?
+      answer: No
+   -  question: Is this the last question?
+      answer: Yes
+   -  question: Is this the last question?
+      answer: Yes
+   -  question: Is this the last question?
+      answer: Yes
+   -  question: Is this the last question?
+      answer: Yes
+   -  question: Is this the last question?
+      answer: Yes
+   -  question: Is this the last question?
+      answer: Yes
+   -  question: Is there a solution?
+      answer: No
+   -  question: Do I need one?
+      answer: No
+   -  question: Is life a riddle?
+      answer: No
+   -  question: Did I do enough?
+      answer: Yes
+   -  question: Did I do well?
+      answer: Yes
+   -  question: Did I do very well?
+      answer: Yes
+---
+extends base
+
+block content
+   .wrapper
+      header#site-header
+         h1#site-title The Binary Truth 
+         p#subtitle A website by 
+            a(href='https://dominiclooser.ch') Dominic Looser
+         p#scroll Scroll down <br>to find <br>your personalized <br>binary truth!
+
+      #truths   
+         for truth in truths
+            .truth
+               .question= truth.question
+               .answer= truth.answer
+
+//- block scripts
+//-    script(src='scripts/fitty.min.js')
+//-    script(src='scripts/main.js')
