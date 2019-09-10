@@ -337,11 +337,11 @@ body {
   color: #fff;
   background: #202020;
   padding: 6.65px;
-  padding-right: 13.3px;
+  padding-right: 19.95px;
 }
 @media (min-width: 40em) {
   #site-title {
-  padding-right: 15.4px;
+  padding-right: 23.1px;
   }
 }
 @media (min-width: 40em) {
